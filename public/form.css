@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #B3FFAB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+    height: 70vh;
+    padding: 2%;
+    color: white;
+    background-color: #192a56;
+    -webkit-box-shadow: 0px 7px 13px -1px #192a56;
+    -moz-box-shadow: 0px 7px 13px -1px #192a56;
+    box-shadow: 0px 7px 13px -1px #192a56;
+    border-radius: 7px;
+}
+
+form > h1 > span {
+    border-bottom: 1px solid white;
+}
+
+form > h1 {
+    margin-bottom: 20px;
+}
+
+form > dir{
+    min-height: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 10px 0;
+}
+
+#submit {
+    margin: 35px auto;
+    font-size: 15px;
+    flex-grow: 1;
+    height: 30px;
+}
+
+form > dir > input {
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    min-width: 40%;
+    margin: 0 5px;
+    padding: 3px;
+}
+
+form > dir > textarea {
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+}

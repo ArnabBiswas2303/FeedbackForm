@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/" method="POST">
+        <h1><span>Feedback Form</span></h1>
+        <dir>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+        </dir>
+        <dir>
+            <label for="phone">Phone No:</label>
+            <input type="text" name="phone" id="phone">
+        </dir>
+        <dir>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </dir>
+        <dir>
+            <p>Gender:</p>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+        </dir>
+        <dir>
+            <p>Birthday:</p>
+            <input type="date" name="bday">
+        </dir>
+        <dir>
+            <p>Rating:</p>
+            <input type="radio" name="rating" value="good"> Good
+            <input type="radio" name="rating" value="average"> Average
+            <input type="radio" name="rating" value="poor"> Poor
+        </dir>
+        <dir>
+            <p>Hobbies:</p>
+            <input type="checkbox" name="hobbies" value="eat">Eat
+            <input type="checkbox" name="hobbies" value="sleep">Sleep
+            <input type="checkbox" name="hobbies" value="repeat">Repeat
+        </dir>
+        <dir>
+            <p>Feedback:</p>
+            <textarea name="feedback" id="feedback" cols="30" rows="3"></textarea>
+        </dir>
+        <dir>
+            <input id="submit" type="submit" value="Submit">
+        </dir>
+    </form>
+</body>
+</html>
